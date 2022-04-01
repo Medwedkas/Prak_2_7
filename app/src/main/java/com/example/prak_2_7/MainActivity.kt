@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val provider = ViewModelProvider(this)
         viewModel = provider.get(MessageViewModel::class.java)
-            val radioGroup = findViewById<RadioGroup>(R.id.radioioGrp)
+            val radioGroup = findViewById<RadioGroup>(R.id.radioGrp)
             bind.button.setOnClickListener {
                 val editTextCondition: Editable? = bind.editText.text
                 val checkBoxCondition: String =  if (bind.checkBox.isChecked) "ON" else "OFF".toString()

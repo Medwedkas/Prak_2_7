@@ -41,7 +41,7 @@
             </ToggleButton>
 
             <RadioGroup
-                android:id="@+id/radioioGrp"
+                android:id="@+id/radioGrp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
